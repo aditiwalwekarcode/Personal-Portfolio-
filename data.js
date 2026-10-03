@@ -6,7 +6,7 @@
 export const portfolioData = {
   personal: {
     name: "ADITI",
-    fullName: "Aditi",
+    fullName: "Aditi Walwekar",
     role: "CSE (AI & DS) Student · Developer · Builder",
     tagline: "Learning. Building. Experimenting.",
     location: "Pune, India",
@@ -100,7 +100,8 @@ export const portfolioData = {
       tagline: "Long-term personal digital archive and technical workshop",
       category: "Creative Engineering",
       description: "A bespoke personal website built completely from scratch as a living digital space to document learnings, projects, and milestones.",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Semantic HTML"]
+      technologies: ["React", "TypeScript", "Tailwind CSS", "Semantic HTML"],
+      liveUrl: "https://aditiwalwekarportfolio.vercel.app/"
     },
     {
       id: "campusmove",
@@ -173,19 +174,19 @@ export const portfolioData = {
     },
     {
       degree: "Class XII (Senior Secondary)",
-      institution: "The Lexicon Schools",
+      institution: "The Lexicon International School,Wagholi",
       period: "2026",
       grade: "82.4%"
     },
     {
       degree: "Class X (Secondary School)",
-      institution: "The Lexicon Schools",
+      institution: "The Lexicon International School,Wagholi",
       period: "2024",
       grade: "90%"
     },
     {
       degree: "Foundational & Middle School Education",
-      institution: "Shanti Asiatic School - India",
+      institution: "Shanti Asiatic School Ahmedabad",
       period: "Dec 2014 – Aug 2023"
     }
   ],
