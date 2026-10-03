@@ -1,0 +1,30 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "rewrites": [
+    {
+      "source": "/assets/documents/:match*",
+      "destination": "/assets/documents/:match*"
+    },
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
+  ],
+  "headers": [
+    {
+      "source": "/assets/documents/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "application/pdf"
+        },
+        {
+          "key": "Content-Disposition",
+          "value": "inline"
+        }
+      ]
+    }
+  ]
+}
