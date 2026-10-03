@@ -5,7 +5,7 @@
  */
 export const portfolioData = {
   personal: {
-    name: "ADITI",
+    name: "ADITI WALWEKAR",
     fullName: "Aditi Walwekar",
     role: "CSE (AI & DS) Student · Developer · Builder",
     tagline: "Learning. Building. Experimenting.",
